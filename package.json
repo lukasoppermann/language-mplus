@@ -1,0 +1,16 @@
+{
+  "name": "language-mplus",
+  "version": "0.1.0",
+  "description": "Syntax highlighter for Mplus",
+  "repository": "https://github.com/lukasoppermann/language-mplus",
+  "keywords": [
+    "Mplus",
+    "statistics",
+    "atom",
+    "language"
+  ],
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
