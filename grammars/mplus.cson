@@ -1,0 +1,48 @@
+'fileTypes': [
+  'mplus.inp',
+  'mplus.out'
+]
+'name': 'Mplus'
+'patterns': [
+  {
+    'name': 'keyword.control'
+    'match': '^(TITLE|DATA|VARIABLE|DEFINE|SAVEDATA|ANALYSIS|MODEL|OUTPUT|MONTECARLO)'
+  },
+  {
+    'match': '(?<!^)([A-Z]+)[\\s|\\$]'
+    'name': 'entity.name.function'
+  },
+  {
+    'match': '\\='
+    'name': 'keyword.operator.assignment'
+  },
+  {
+    'match': '\\:'
+    'name': 'keyword.operator.assignment'
+  },
+  {
+    'match': '\\;'
+    'name': 'punctuation.statement.statement'
+  },
+  {
+    'match': '[\+|-]'
+    'name': 'keyword.operator'
+  },
+  {
+    'match': '\\*'
+    'name': 'keyword.operator'
+  },
+  {
+    'match': '\\\/'
+    'name': 'keyword.operator'
+  },
+  {
+    'match': '[0-9]'
+    'name': 'constant.numeric'
+  },
+  {
+    'match': '!.*$'
+    'name': 'comment.line'
+  }
+]
+'scopeName': 'text.mplus'
