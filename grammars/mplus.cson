@@ -37,7 +37,7 @@
     'name': 'keyword.operator'
   },
   {
-    'match': '(?:\s)([\(|\+|-|\*|\/]*[0-9]+[\.|,]?[0-9]*[\)|\;|\+|-|\*|\/]*)*(?:\s)'
+    'match': '(?:\s)([\(|\+|\-|\*|\/]*[0-9]+[\.|,]?[0-9]*[\)|\;|\+|\-|\*|\/]*)*(?:\s)'
     'name': 'constant.numeric'
   },
   {
@@ -45,4 +45,4 @@
     'name': 'comment.line'
   }
 ]
-'scopeName': 'text.mplus'
+'scopeName': 'text.mplus-config'
