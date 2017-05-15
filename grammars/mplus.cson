@@ -1,6 +1,6 @@
 'fileTypes': [
-  'mplus.inp',
-  'mplus.out'
+  'inp',
+  'out'
 ]
 'name': 'Mplus'
 'patterns': [
@@ -9,7 +9,7 @@
     'match': '^(TITLE|DATA|VARIABLE|DEFINE|SAVEDATA|ANALYSIS|MODEL|OUTPUT|MONTECARLO)'
   },
   {
-    'match': '(?<!^)([IF|THEN|DO|_MISSING|MEAN|SUM|CUT|CLUSTER_MEAN|CENTER|STANDARDIZE]+)[\\s|\\$]'
+    'match': '(?<!^)((IF|THEN|DO|_MISSING|MEAN|SUM|CUT|CLUSTER_MEAN|CENTER|STANDARDIZE)+)[\\s|\\$]'
     'name': 'entity.name.function'
   },
   {
@@ -45,4 +45,4 @@
     'name': 'comment.line'
   }
 ]
-'scopeName': 'text.mplus'
+'scopeName': 'source.mplus'

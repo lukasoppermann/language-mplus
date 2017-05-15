@@ -1,3 +1,7 @@
-'.text.mplus':
-  'editor':
-    'commentStart': '! '
+"*":
+  core:
+    customFileTypes:
+      "source.mplus": [
+         "inp",
+         "out"
+      ]
