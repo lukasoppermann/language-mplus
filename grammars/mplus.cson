@@ -9,7 +9,7 @@
     'match': '^(TITLE|DATA|VARIABLE|DEFINE|SAVEDATA|ANALYSIS|MODEL|OUTPUT|MONTECARLO)'
   },
   {
-    'match': '(?<!^)([A-Z]+)[\\s|\\$]'
+    'match': '(?<!^)([IF|THEN|DO|_MISSING|MEAN|SUM|CUT|CLUSTER_MEAN|CENTER|STANDARDIZE]+)[\\s|\\$]'
     'name': 'entity.name.function'
   },
   {
@@ -37,7 +37,7 @@
     'name': 'keyword.operator'
   },
   {
-    'match': '(?:\s)([\(|\+|\-|\*|\/]*[0-9]+[\.|,]?[0-9]*[\)|\;|\+|\-|\*|\/]*)*(?:\s)'
+    'match': '(?:\\b\\d+[,.]|\\B[.,])?\\d+(?:e[-+]?\\d+)?\\b'
     'name': 'constant.numeric'
   },
   {
