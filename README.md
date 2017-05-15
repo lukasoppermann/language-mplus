@@ -1,4 +1,7 @@
 # language-mplus
-Mplus language package for the atom editor
+Syntax highlight for the Mplus language for the atom editor.
 
-https://www.statmodel.com/language.html
+## install
+```
+apm install lukasoppermann/language-mplus
+```
