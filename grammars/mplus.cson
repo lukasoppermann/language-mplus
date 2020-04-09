@@ -1,8 +1,10 @@
+'scopeName': 'source.mplus'
+'name': 'Mplus'
 'fileTypes': [
   'inp',
   'out'
 ]
-'name': 'Mplus'
+'limitLineLength': false
 'patterns': [
   {
     'name': 'keyword.control'
@@ -49,4 +51,3 @@
     'name': 'comment.line'
   }
 ]
-'scopeName': 'source.mplus'
