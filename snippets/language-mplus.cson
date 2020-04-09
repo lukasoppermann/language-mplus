@@ -1,0 +1,16 @@
+# If you want some example snippets, check out:
+# https://github.com/atom/language-javascript/blob/master/snippets/javascript.cson
+
+'.source.mplus':
+  'Generate template of an .inp file':
+    'prefix': 'template'
+    'body': """
+      TITLE: -INSERT-;
+      DATA: filename.dat;
+      VARIABLE:
+        NAMES = ;
+        MISSING= ;
+      ANALYSIS:
+      MODEL:
+      OUTPUT:
+      """
