@@ -1,6 +1,6 @@
 {
   "name": "language-mplus",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Syntax highlighter for Mplus",
   "repository": "https://github.com/lukasoppermann/language-mplus",
   "keywords": [
